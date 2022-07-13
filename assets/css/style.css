@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
+/* font-family: 'Roboto',
+sans-serif;
+font-family: 'Tangerine',
+cursive; */
+
+@font-face {
+    font-family: 'Santio black';
+    src: url(/assets/fonts/Santio_Black.ttf) format('truetype');
+    font-family: 'Santio regular';
+    src: url(/assets/fonts/Santio_regular.ttf) format('truetype');
+    font-family: 'Santio light';
+    src: url(/assets/fonts/Santio_light.ttf) format('truetype');
+    font-family: 'Santio inline';
+    src: url(/assets/fonts/Santio_Inline.ttf)format('truetype');
+    font-family: 'Santio boldline';
+    src: url(/assets/fonts/Santio_Boldline.ttf)format('truetype');
+    font-family: 'Santio bold';
+    src: url(/assets/fonts/Santio_Bold.ttf)format('truetype');
+}
+
+
+/* ---General--- */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 5vh;
+
+}
+
+nav>p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 1% 9%;
+    text-decoration: underline #e7bc0e;
+
+}
+
+nav>p:hover {
+    color: lightgrey;
+}
+
+
+main {
+    min-height: 700vh;
+
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/assets/img/cleo-topper.jpg");
+
+    /* Set a specific height */
+    min-height: 700vh;
+    max-height: 700vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+
+
+/* überschrift h1 */
+.parallax>h1 {
+    color: white;
+    display: flex;
+    width: 8%;
+    height: 20%;
+    padding: 6% 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4rem;
+
+}
+
+/* scroll to lern more!! */
+.parallax>p {
+    font-family: 'Tangerine', cursive;
+    color: #e7bc0e;
+    font-size: 3.5rem;
+    font-weight: 600;
+    padding-left: 10%;
+    letter-spacing: -3px;
+}
+
+/* article Text */
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width: 100%;
+    height: 60%;
+
+}
+
+.content1 p {
+    color: #6bc1a3;
+    width: 100%;
+    padding: 60% 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+
+}
+
+.content1 span {
+    color: white;
+    background-color: rgb(53, 52, 52);
+}
+
+/* ---svg Workers--- */
+img {
+    width: 20%;
+    height: 20%;
+
+
+
+}
+
+.svgWorkers {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 80vh;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15%;
+
+
+
+}
+
+/* Überschrift Workers */
+.svgWorkers h2 {
+    color: #e7bc0e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+    line-height: ;
+    padding-top: 10%;
+
+
+
+
+
+}
+
+.svgWorkers p {
+    color: #e7bc0e;
+    font-size: 2rem;
+
+
+}
+
+.svgWorkers span {
+    color: white;
+    background-color: rgb(53, 52, 52);
+    display: inline-block;
+    padding: 2px;
+    font-size: 2rem;
+
+}
+
+/* ----svg Pay---- */
+
+.svgPay {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 80vh;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15%;
+}
+
+
+
+.svgPay span {
+    color: white;
+    background-color: rgb(53, 52, 52);
+    display: inline-block;
+    padding: 2px;
+    font-size: 2rem;
+}
+
+.svgPay h2 {
+    color: #cb91b6;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 10rem;
+    line-height: ;
+
+}
+
+.svgPay p {
+    color: #cb91b6;
+    font-size: 2rem;
+    padding-top: 10%;
+
+}
+
+/* svg Health */
+
+.svgHealth img{
+    height: 15vh;
+
+}
+
+.svgHealth {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    height: 50vh;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15%;
+}
+
+
+.svgHealth span {
+    color: white;
+    background-color: rgb(53, 52, 52);
+    display: inline-block;
+    padding: 2px;
+    font-size: 2rem;
+}
+
+.svgHealth h2 {
+    color: #6bc1a3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10rem;
+    padding-top: 5%;
+
+}
+
+.svgHealth p {
+    color: #6bc1a3;
+    font-size: 2rem;
+    padding-top: 6%;
+
+}
+
+/* aside Text  */
+.parallax aside {
+
+    display: flex;
+    justify-content: right;
+    padding: 5%;
+    width: 100%;
+    height: 60%;
+}
+
+aside p {
+    color: #7eb8e1;
+    width: 80%;
+    padding: 10% 15%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+
+}
+
+aside span {
+    color: white;
+    background-color: rgb(53, 52, 52);
+}
+
+/* PNG Kid */
+
+.Kid img {
+
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(/assets/img/see.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* footer  */
+footer {
+
+    height: 100vh;
+    /* width: auto; */
+    background-color: black;
+    
+    
+    padding-left: 10%;
+    flex-direction: column;
+    margin-top: -10px;
+
+}
+
+footer p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 320px 0 20px 0;
+    margin: 0 200px;
+
+}
+
+footer h2 {
+    color: white;
+    font-size: 5rem;
+    display: block;
+    width: 50%;
+    height: 60%;
+
+}
+
+footer span {
+    color: #6bc1a3;
+}
+
+/* Button */
+.donate {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    color: #efefef;
+    text-decoration: none;
+    padding: 16px 36px;
+    border: 2px solid #efefef;
+    margin-top:50px ;
+}
+
+
+
+/* Button hover */
+.donate:hover {
+    box-shadow: 6px 6px 0 0 #efefef;
+}
